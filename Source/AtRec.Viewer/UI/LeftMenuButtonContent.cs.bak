@@ -1,0 +1,28 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+using Prism.Mvvm;
+using Prism.Commands;
+
+namespace AtRec.Viewer.UI
+{
+    public class LeftMenuButtonContent : BindableBase
+    {
+        public string Name
+        {
+            get => this._name;
+            set => this.SetProperty(ref this._name, value);
+        }
+        private string _name;
+
+        public DelegateCommand ButtonCommand
+        {
+            get => this._buttonCommand;
+            set => this.SetProperty(ref this._buttonCommand, value);
+        }
+        private DelegateCommand _buttonCommand;
+    }
+}

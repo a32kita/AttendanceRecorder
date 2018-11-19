@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtRec.Core", "AtRec.Core\AtRec.Core.csproj", "{08478927-68EA-4039-B188-0F05A919C9E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtRec.Viewer", "AtRec.Viewer\AtRec.Viewer.csproj", "{B1963921-6445-4FF0-A84E-FA73EF2F24A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtRec.Daemon", "AtRec.Daemon\AtRec.Daemon.csproj", "{D8A4FE56-A60F-420C-95AE-9CBDFC3AEB6F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{6EEF03C3-6574-4FF0-AD40-2977F3011FBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtRec.Core.DataCommonsTest01", "Tests\AtRec.Core.DataCommonsTest01\AtRec.Core.DataCommonsTest01.csproj", "{B21DAC5C-C153-4B0A-A41E-4F827D202DD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtRec.Core.DailyLogManagerTest01", "Tests\AtRec.Core.DailyLogManagerTest01\AtRec.Core.DailyLogManagerTest01.csproj", "{665DD52E-3CFC-4212-91BE-4E43BD3375D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08478927-68EA-4039-B188-0F05A919C9E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08478927-68EA-4039-B188-0F05A919C9E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08478927-68EA-4039-B188-0F05A919C9E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08478927-68EA-4039-B188-0F05A919C9E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1963921-6445-4FF0-A84E-FA73EF2F24A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1963921-6445-4FF0-A84E-FA73EF2F24A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1963921-6445-4FF0-A84E-FA73EF2F24A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1963921-6445-4FF0-A84E-FA73EF2F24A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8A4FE56-A60F-420C-95AE-9CBDFC3AEB6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8A4FE56-A60F-420C-95AE-9CBDFC3AEB6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8A4FE56-A60F-420C-95AE-9CBDFC3AEB6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8A4FE56-A60F-420C-95AE-9CBDFC3AEB6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B21DAC5C-C153-4B0A-A41E-4F827D202DD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B21DAC5C-C153-4B0A-A41E-4F827D202DD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B21DAC5C-C153-4B0A-A41E-4F827D202DD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B21DAC5C-C153-4B0A-A41E-4F827D202DD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{665DD52E-3CFC-4212-91BE-4E43BD3375D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{665DD52E-3CFC-4212-91BE-4E43BD3375D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{665DD52E-3CFC-4212-91BE-4E43BD3375D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{665DD52E-3CFC-4212-91BE-4E43BD3375D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B21DAC5C-C153-4B0A-A41E-4F827D202DD5} = {6EEF03C3-6574-4FF0-AD40-2977F3011FBA}
+		{665DD52E-3CFC-4212-91BE-4E43BD3375D7} = {6EEF03C3-6574-4FF0-AD40-2977F3011FBA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {13435A51-16B9-4C79-BD30-2C815D4FFBA9}
+	EndGlobalSection
+EndGlobal
