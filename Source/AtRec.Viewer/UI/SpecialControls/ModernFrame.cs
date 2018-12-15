@@ -9,6 +9,8 @@ using System.Windows.Controls;
 using System.Windows.Markup;
 using System.Windows.Media;
 
+using Prism.Commands;
+
 using AtRec.Viewer.UI.SpecialControls.InternalControls;
 
 namespace AtRec.Viewer.UI.SpecialControls
@@ -63,9 +65,11 @@ namespace AtRec.Viewer.UI.SpecialControls
         {
             this._leftMenuStackPanel.Children.Clear();
 
-            foreach (var info in this._pages.Select((item, index) => new { pageName = item.PageName, pageIndex = index }))
+            //.Where(item => item.Parent == this)
+            foreach (var info in this._pages.Where(item => item is ModernFramePage).Select((item, index) => new { pageName = item.PageName, pageIndex = index }))
             {
                 var button = new ModernFramePageButton() { ButtonText = info.pageName, IndexNumber = info.pageIndex };
+                button.Command = new DelegateCommand(() => { this._setCurrentPage(info.pageIndex); });
                 this._leftMenuStackPanel.Children.Add(button);
             }
 

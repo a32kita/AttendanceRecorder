@@ -30,7 +30,9 @@
                     <TextBlock>a</TextBlock>
                 </spc:ModernFramePage>
                 <spc:ModernFramePage PageName="太郎"/>
-                <spc:ModernFramePage PageName="次郎"/>
+                <spc:ModernFramePage PageName="三郎"/>
+                <spc:ModernFramePage PageName="四郎"/>
+                <spc:ModernFramePage PageName="五郎"/>
             </spc:ModernFrame>
         </Grid>
     </Grid>

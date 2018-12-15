@@ -10,6 +10,7 @@ using System.Windows.Markup;
 
 namespace AtRec.Viewer.UI.SpecialControls
 {
+    [Localizability(LocalizationCategory.Ignore)]
     [ContentProperty("PageContent")]
     public class ModernFramePage : UserControl, IAddChild
     {
