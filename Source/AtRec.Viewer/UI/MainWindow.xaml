@@ -4,7 +4,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:AtRec.Viewer.UI"
-             xmlns:spc="clr-namespace:AtRec.Viewer.UI.SpecialControls"
+             xmlns:mf="clr-namespace:AtRec.Viewer.UI.SpecialControls"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
     <Window.DataContext>
@@ -25,15 +25,6 @@
         </Grid>
 
         <Grid Grid.Row="1">
-            <spc:ModernFrame>
-                <spc:ModernFramePage PageName="ホーム">
-                    <TextBlock>a</TextBlock>
-                </spc:ModernFramePage>
-                <spc:ModernFramePage PageName="太郎"/>
-                <spc:ModernFramePage PageName="三郎"/>
-                <spc:ModernFramePage PageName="四郎"/>
-                <spc:ModernFramePage PageName="五郎"/>
-            </spc:ModernFrame>
         </Grid>
     </Grid>
 </Window>

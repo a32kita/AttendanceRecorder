@@ -75,29 +75,27 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="UI\SpecialControls\InternalControls\ModernFramePageButton.xaml">
+    <None Include="UI\SpecialControls\InternalControls\ModernFramePageButton.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
-    </Page>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <None Include="UI\LeftMenuButtonContent.cs.bak" />
     <Compile Include="UI\MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="UI\MainWindowViewModel.cs" />
+    <Compile Include="UI\ModernFrameUI\ModernFrame.cs" />
     <Compile Include="UI\SpecialControls\InternalControls\ModernFramePageButton.xaml.cs">
       <DependentUpon>ModernFramePageButton.xaml</DependentUpon>
     </Compile>
-    <Compile Include="UI\SpecialControls\ModernFrame.cs" />
-    <Compile Include="UI\SpecialControls\ModernFramePage.cs" />
-    <Compile Include="UI\SpecialControls\ModernFramePageCollection.cs" />
+    <None Include="UI\SpecialControls\ModernFrame.cs" />
+    <None Include="UI\SpecialControls\ModernFramePage.cs" />
+    <None Include="UI\SpecialControls\ModernFramePageCollection.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="UI\MainWindowOldSource.txt" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
